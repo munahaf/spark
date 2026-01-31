@@ -52,7 +52,7 @@ py
 # Spark Connect (required)
 grpcio==1.48.1
 grpcio-status==1.48.1
-protobuf==3.19.5
+protobuf==6.33.5
 googleapis-common-protos==1.56.4
 
 # Spark Connect python proto generation plugin (optional)
@@ -61,5 +61,6 @@ googleapis-common-protos-stubs==2.2.0
 grpc-stubs==1.24.11
 
 # TorchDistributor dependencies
-torch==1.13.1
+torch==2.10.0
 torchvision==0.14.1
+nbconvert>=7.17.0 # not directly required, pinned by Snyk to avoid a vulnerability
